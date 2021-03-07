@@ -1,5 +1,5 @@
-pyjwt
+awscli
 flask
 gunicorn
+pyjwt
 pytest
-awscli
