@@ -21,6 +21,9 @@ def client():
     yield client
 
 
+def test_prevent_bad():
+    assert False
+
 
 def test_health(client):
     response = client.get('/')
